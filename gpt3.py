@@ -3,6 +3,8 @@ import openai
 
 openai.api_key= st.secrets["apikey"]
 
+st.write("key",st.secrets["apikey"])
+
 st.set_page_config(page_title="Simple GPT-3 Playground", page_icon="GPT-3-favicon.png")
 st.title("Simple GPT-3 Playground")
 
