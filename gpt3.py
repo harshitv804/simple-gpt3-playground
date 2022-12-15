@@ -1,7 +1,7 @@
 import streamlit as st
 import openai
 
-openai.api_key= "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"
+openai.api_key= st.secrets["apikey"]
 
 st.set_page_config(page_title="Simple GPT-3 Playground", page_icon="GPT-3-favicon.png")
 st.title("Simple GPT-3 Playground")
