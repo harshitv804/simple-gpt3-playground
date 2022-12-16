@@ -16,9 +16,5 @@ def generate_answer():
     else:
         pass
 
-def clear_text():
-    st.session_state["text"] = ""
-
 st.button("Process",on_click=generate_answer())
-st.button("Clear All", on_click=clear_text)
 
